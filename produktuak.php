@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["product_id"])) {
     $produktua_id = intval($_POST["product_id"]);
     $erabiltzailea_id = $_SESSION["id"];
 
-    // konprobatzeko karritoan produktua dagoen 
+    // konprobatzeko karritoamnm produktua dagoen 
     $check = mysqli_query(
         $conn,
         "SELECT * FROM saskia 
@@ -75,7 +75,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["product_id"])) {
 </header>
 <div class="wrapper">
 
-    
+    <?php include "sidebar.php"; ?>
 
     <main class="main-content">
 

@@ -65,7 +65,7 @@ $total_items = count($_SESSION["carrito"]);
 
     <div class="wrapper">
 
-        
+        <?php include "sidebar.php"; ?>
 
         <main class="main-content">
 
