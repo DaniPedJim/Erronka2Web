@@ -1,0 +1,60 @@
+/* admin_salmentak.css */
+
+.main-content {
+    flex: 1;
+    padding: 30px;
+    background-color: #f9f9f9;
+}
+
+.stats-header {
+    margin-bottom: 25px;
+    border-bottom: 2px solid #A8D5BA;
+    padding-bottom: 10px;
+}
+
+.stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.stats-table th {
+    background-color: #A8D5BA;
+    color: #333;
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.stats-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+    vertical-align: middle;
+}
+
+.stats-table tr:hover {
+    background-color: #f1f8f4;
+}
+
+.product-img-td img {
+    border-radius: 5px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+}
+
+.money-text {
+    font-weight: bold;
+    color: #2e8b57;
+    font-size: 1.1rem;
+}
+
+.unit-badge {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
